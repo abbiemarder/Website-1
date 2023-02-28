@@ -1,0 +1,65 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.title {
+    font-size: 60px;
+    font-family: 'Gloock', serif;
+}
+
+h3 {
+    font-family: 'Gloock', serif;
+    color: #666;
+}
+
+h2 {
+    margin: 0;
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: 'Gloock', serif;
+}
+
+.smaller {
+    font-size: 45px;
+}
+
+.smaller1 {
+    font-size: 35px;
+}
+
+.item {
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 300px !important;
+}
+
+.carousel-indicators {
+    text-align: center;
+}
+
+.carousel {
+    margin-top: 100px;
+    padding-top: 80px;
+}
+
+.bs-example {
+    padding-top: 80px;
+    margin: 90px;
+}
+
+.carousel.carousel-fade .item {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* ie fix */
+}
+
+.carousel.carousel-fade .active.item {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* ie fix */
+}
