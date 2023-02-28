@@ -14,6 +14,7 @@ body {
 h3 {
     font-family: 'Gloock', serif;
     color: #666;
+    font-size: 2vw;
 }
 
 h2 {
@@ -35,7 +36,7 @@ h2 {
 .item {
     background-repeat: no-repeat;
     text-align: center;
-    height: 300px !important;
+    font-size: 8vw;
 }
 
 .carousel-indicators {
